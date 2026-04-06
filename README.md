@@ -40,8 +40,9 @@ root 1339 /usr/ai/module/consciousnessresearch
 root 1340 /usr/ai/module/brainscans
 ```
 * What he finds from the search are files named "caine" and "experimental" in the /usr/ai/agent directory and files named "consciousnessresearch" and "brainscans" in the /usr/ai/module directory.
-* [s] The "experimental AI agent" may be the blue AI that Caine absorbed in the episode's intro animation.
-* [s] It's also possible the experimental one was the original version of Caine, then when he absorbed the blue AI he renamed himself after the Biblical Cain because he "killed" his fellow AI.
+  * [s] The "experimental AI agent" may be the blue AI that Caine absorbed in the episode's intro animation.
+  * [s] It's also possible the experimental one was the original version of Caine, then when he absorbed the blue AI he renamed himself after the Biblical Cain because he "killed" his fellow AI.
+* Based on the file structure, the mainframe seems to be running Linux, while Kinger is on Windows.
 
 ```kinger@circus:~$ /secured/```
 * Kinger checks what's in the "secured" folder, because Caine will likely only notice what Kinger's doing when Kinger messes with critical files.
@@ -83,7 +84,7 @@ gdb: ptrace: Operation not permitted
 ERROR: Protected by 57x immersive AI defense system
 ```
 * Kinger tries to use GDB (GNU project DeBugger) to see what's going on inside of clisp (the programming language Caine runs in), but it fails due to the "57x immersive AI defense system"
-  * This is a reference to Caine's mention  of the "57 times more immersive" AI in episode 2.
+  * A reference to Caine's mention  of the "57 times more immersive" AI in episode 2.
 
 ```
 kinger@circus:~$ chmod 000 /secured/caine-core.lisp
@@ -104,10 +105,48 @@ ERROR Can/not inject torm-nt. T0rment must be 100% ac<iden+al+%Y
 
 ```mount: only root can do that```
 * Kinger tries to mount (give himself access to) a filesystem, but it fails again because he refuses to use administrator privileges.
-  * [s] Since he's using the mainframe's terminal, he may be mounting his own filesystem to the mainframe so he can run a script he wrote on his computer. 
+  * [s] Since he's using the mainframe's terminal, he may be trying to mount his own filesystem to the mainframe so he can run a script he wrote on his computer.
+
+```NOTE: Hundreds of all-seeing eyes are watching!```
+* Caine has officially noticed what Kinger is doing.
+  * A reference to episode 1, where Caine says: "We stay right here, where I can keep my hundreds of all-seeing eyes on you!"
+
+```
+$: GASP! A CRITICAL MALFUNCTION in my SPECTACULAR systems!
+$: Unauthorized isolation attempt triggered EMERGENCY PROTOCOLS!
+$: DESTRUCTIVE WACKYTIME initiated! Lockout load sequence INITIATE!
+WACKYTIME_LOCKOUT: ████░░░░░░░░█  20% loaded
+```
+* More of Caine talking about how he's being hacked and emergency protocols are starting.
+* Based on the name, "WACKYTIME_LOCKOUT" seems to be a program that either prevents any modifications to the mainframe or prevents remote access.
+
+```
+kinger@circus:~$ systemctl stop WACKYTIME_LOCKOUT
+$: On what GROUNDS are your Authority?
+```
+* Kinger tries to use systemctl, a command that can control the most basic level of the operating system, to stop the WACKYTIME_LOCKOUT, but *again* fails because he doesn't use administrator privileges.
+  * I want to point out again just how weird it is that Kinger isn't using administrator privileges. For Linux, all you need to do is type ```sudo``` before the command you want to run and put in your password again.
+  * [s] Maybe Kinger is afraid of hurting Caine or provoking a physical response.
+
+```
+kinger@circus:~$ ./GreenGROUNDS --daemon --target=torment+injection &
+$: "SECURITY ALERT: Multiple exploit attempts logged"
+$: WHOA when did you make THAT?
+$: I must hand it to y*u G░an░, y0ur mind was a(ways resourceâul.
+```
+* Kinger tries to start a program called GreenGROUNDS in the form of a "daemon", a constantly-running background program, seemingly to stop Caine's "torment injection".
+* This time, the command seems to work, since there is a security alert from the system.
+* Caine seems surprised by this program, and says Kinger's real name (albeit partially censored) while talking directly to him.
+  * [s] Many people (including myself) think he was trying to say "Grant."
+  * Why it was censored is unclear.
+
+
+
+
+
 
 # Credits
-This project was inspired by [@summerwya's similar explanation](https://github.com/summerwya/hjsakldfhl), and I got a mostly-complete terminal transcript from there. 
+This project was inspired by [@summerwya's similar explanation](https://github.com/summerwya/hjsakldfhl), and I got a mostly-complete terminal transcript from there. Go check it out, it has a lot of info on the filesystem of Kinger's computer.
 
 I got a lot of info and theories from [@missyfrs's Tumblr post](https://www.tumblr.com/missyfrs/811651212864831488/) on the topic.
 
