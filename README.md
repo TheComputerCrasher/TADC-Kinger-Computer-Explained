@@ -1,6 +1,4 @@
-# hjsakldfhl
 Explaining **everything** in Kinger's terminal in The Amazing Digital Circus: Episode 8. Speculation is marked by [s] before a sentence.
-
 ```# System: KingSolution 2.0 / Digital Circus Mainframe```
 * "2.0" implies this is Kinger's second version of the program to get into the Digital Circus's mainframe.
 * A mainframe is a powerful (although not super) computer, often used as a server.[[1]](https://en.wikipedia.org/wiki/Mainframe_computer)
