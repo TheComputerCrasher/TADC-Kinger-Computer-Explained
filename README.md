@@ -189,10 +189,25 @@ $: IGNORED! proceeding with ORIGINAL d [covered]
 $: Actually you're CONFUSED let me HELP, [covered] EXIST? [Y/N]
 kinger@circus:~$ Y
 ```
-* Caine seems to be misunderstanding (intentionally or not is unclear) and trying to delete himself, while Kinger is trying to prevent the deletion.
+* Caine seems to be misunderstanding Kinger (intentionally or not is unclear) and trying to delete himself, while Kinger is trying to prevent the deletion.
 
+```
+$:Querri transaction error falling back to default met [covered]
+kinger@circus:~$ ./Switcheroo_realt --daemon --target=torment+injection &
+[covered] on --bi program1 program2 - [covered]
+```
+* The system throws another nonsensical error, and Kinger tries a new program, seemingly with similar functionality to the GreenGROUNDS program he tried earlier.
 
-
+```
+$: Are you ready to delete caine? [Y/N]
+WACKYTIME_LOCKOUT:  ███████████░█  90% loaded
+kinger@circus:~$ Y
+kinger@circus:~$ ./IABORT Rollback --depth=1 --force --protocol G WVJI
+kinger@circus:~$ ^C
+DESTRUCTIVE WACKYTIME Lockout Load Sequence: Complete
+```
+* The system completely ignores Kinger's new program and, likely expecting a [Y/N] prompt from his program instead of the system, chooses yes.
+* The "./IABORT Rollback" and "^C" are basically the equivalent of hitting the undo button... but it's too late. Caine is deleted and the WACKYTIME_LOCKOUT is finished, so he can't do anything else.
 
 # Credits
 This project was inspired by [@summerwya's similar explanation](https://github.com/summerwya/hjsakldfhl), and I got a mostly-complete terminal transcript from there. Go check it out, it has a lot of info on the filesystem of Kinger's computer.
