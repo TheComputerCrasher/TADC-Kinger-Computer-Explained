@@ -66,11 +66,12 @@ drwxr-xr-x 45 root wheel 1024 Oct 15 1996 ..
 * The first number is the number of subdirectories or hard links to the file or directory. Unimportant for our purposes.
 * "root wheel" seems to be a folder name of some sort and I don't really understand it, but it's basically saying everything here is in the same folder (which we knew already), so it's unimportant.
 * The second number is the size of the file. The Paraphernalia Engine (whatever that is), Scratch's mind, and Ragatha's mind are the exact same size, which is *extremely* rare for non-identical files. What exactly this means, though, is unclear.
+  * [s] It's likely that these are not their actual mind files, since these are only a few megabytes despite the human brain's storage being in the petabyte (about a million gigabytes) range.[[3]](https://www.science.org/content/article/human-brain-big-internet)
 * The next entry is the date, which is the last time each file was modified.
-  * Caine's "core" was last modified the same day as the other Circus-specific files like Bubble and the Wacky Watch, so this is likely the day he created the Circus.
-  * [s] Since Ragatha's mind is still being used and Caine was still developing before the events of this episode (which take place in 2017),[[3]](https://x.com/quietxwater/status/1998030239147123142) the two mind files here are likely just the base mind that was first uploaded to the Circus, and the "caine-core" is likely Caine's default/fallback programming.
+  * Caine's "core" was last modified the same day as the other Circus-specific files like Bubble and the Wacky Watch, so October 15, 1996 is likely the day he created the Circus.
+  * [s] Since Ragatha's mind is still being used and Caine was still developing before the events of this episode (which take place in 2017),[[4]](https://x.com/quietxwater/status/1998030239147123142) this is more confirmation that the two mind files here are likely just information *about* the minds, and the "caine-core" is likely Caine's default/fallback programming.
     * If this is true, this confirms Scratch entered the Circus October 15, 1999, and Ragatha entered October 15, 2008 (the same day of the month Caine created the Circus).
-      * [s] It's possible C&A have some sort of anniversary event where someone new tries out the Digital Circus on the anniversary of its creation.
+      * [s] It's possible there is some sort of anniversary event in the real world where someone new tries out the Digital Circus on the anniversary of its creation.
 
 ```
 kinger@circus:~$ stop caine process
