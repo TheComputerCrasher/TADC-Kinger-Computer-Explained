@@ -1,8 +1,10 @@
-Explaining **everything** in Kinger's terminal in The Amazing Digital Circus: Episode 8. Speculation is marked by [s].
+Explaining **everything** in Kinger's terminal in The Amazing Digital Circus: Episode 8. 
+
+Speculation is marked by [s].
 
 ```# System: KingSolution 2.0 / Digital Circus Mainframe```
 * "2.0" implies this is Kinger's second version of the program to get into the Digital Circus's mainframe.
-* A mainframe is a powerful (although not super) computer, often used as a server.[[1]](https://en.wikipedia.org/wiki/Mainframe_computer)
+* A mainframe is a powerful (although not super) computer, often used as a server.<sup>[[1]](https://en.wikipedia.org/wiki/Mainframe_computer)</sup>
 
 ```# Date: 1996-10-30```
 * Later things in the terminal show the Circus (or at least a lot of things related to it, like Bubble and the Wacky Watch) was created on October *15th*, 1996, 15 days before this program was created. Something must have happened that deleted KingSolution 1.0 after the Circus was created. 
@@ -12,7 +14,7 @@ Explaining **everything** in Kinger's terminal in The Amazing Digital Circus: Ep
 * The ID or name of the server the program is connecting to. Not sure why it's in reverse order.
 
 ```"Initializing telnet connection..."```
-* Telnet is a way to access the terminal of, and therefore run commands on, an external server, in this case the mainframe.[[2]](https://en.wikipedia.org/wiki/Telnet)
+* Telnet is a way to access the terminal of, and therefore run commands on, an external server, in this case the mainframe.<sup>[[2]](https://en.wikipedia.org/wiki/Telnet)</sup>
 * [s] How is the mainframe still running over 20 years later if C&A is abandoned like we've been seeing? Or is the mainframe itself *within* the digital world? 
 
 ```Login: "kinger"```
@@ -67,14 +69,14 @@ drwxr-xr-x 45 root wheel 1024 Oct 15 1996 ..
 * The first number is the number of subdirectories or hard links to the file or directory. Unimportant for our purposes.
 * "root wheel" seems to be a folder name of some sort and I don't really understand it, but it's basically saying everything here is in the same folder (which we knew already), so it's unimportant.
 * The second number is the size of the file. The Paraphernalia Engine (whatever that is), Scratch's mind, and Ragatha's mind are the exact same size, which is *extremely* rare for non-identical files. What exactly this means, though, is unclear.
-  * [s] It's likely that these are not their actual mind files, since these are only a few megabytes despite the human brain's potential storage being in the petabyte (about a million gigabytes) range.[[3]](https://www.science.org/content/article/human-brain-big-internet)
+  * [s] It's likely that these are not their actual mind files, since these are only a few megabytes despite the human brain's potential storage being in the petabyte (about a million gigabytes) range.<sup>[[3]](https://www.science.org/content/article/human-brain-big-internet)</sup>
 * The next entry is the date, which is the last time each file was modified.
   * Caine's "core" was last modified the same day as the other Circus-specific files like Bubble and the Wacky Watch, so October 15, 1996 is likely the day he created the Circus.
-  * [s] Since Ragatha's mind is still being used and Caine was still developing before the events of this episode (which take place in 2017),[[4]](https://x.com/quietxwater/status/1998030239147123142) this is more confirmation that the two mind files here are likely just information *about* the minds, and the "caine-core" is likely Caine's default/fallback programming.
+  * [s] Since Ragatha's mind is still being used and Caine was still developing before the events of this episode (which takes place in 2017<sup>[[4]](https://x.com/quietxwater/status/1998030239147123142)</sup>), this is more confirmation that the two mind files here are likely just information *about* the minds, and the "caine-core" is likely Caine's default/fallback programming.
     * If this is true, this confirms Scratch entered the Circus October 15, 1999, and Ragatha entered October 15, 2008 (the same day of the month Caine created the Circus).
       * [s] It's possible there is some sort of anniversary event in the real world where someone new tries out the Digital Circus on the anniversary of its creation.
 * It doesn't show all 8492 files because this is just a quick check. To do that, you would likely use a command like ```dir -Rl```.
-* For the Linux nerds, typing a directory name to see the first and last few files inside it is a feature of the tcsh shell.[[5]](https://manpages.ubuntu.com/manpages/jammy/man1/tcsh.1.html#:~:text=autolist)
+* For the Linux nerds, typing a directory name to see the first and last few files inside it is a feature of the tcsh shell.<sup>[[5]](https://manpages.ubuntu.com/manpages/jammy/man1/tcsh.1.html#:~:text=autolist)</sup>
 
 ```
 kinger@circus:~$ stop caine process
@@ -212,6 +214,8 @@ DESTRUCTIVE WACKYTIME Lockout Load Sequence: Complete
 * The "./IABORT Rollback" and "^C" are basically the equivalent of hitting an undo button... But it's too late. Caine gets deleted and the WACKYTIME_LOCKOUT finishes loading, so Kinger can't do anything else.
 
 # Credits
+Credit to all of the various sources I linked to in my explanations.
+
 This project was inspired by [@summerwya's similar explanation](https://github.com/summerwya/hjsakldfhl), and I got a mostly-complete terminal transcript from there. Go check it out, it has a lot of info on the filesystem of Kinger's computer.
 
 I got a lot of info and theories from [@missyfrs's Tumblr post](https://www.tumblr.com/missyfrs/811651212864831488/) on the topic.
