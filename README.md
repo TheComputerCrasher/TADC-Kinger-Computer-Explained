@@ -63,7 +63,7 @@ drwxr-xr-x 45 root wheel 1024 Oct 15 1996 ..
 -rwxr-xr-x 1 root wheel 45632 Oct 15 1996 wacky-watch.c
 -rwxr-xr-x 1 root wheel 78234 Oct 15 1996 bubble-chef.lisp
 ```
-* "drwxr-xr-x" and "-rwxr-xr-x" are shorthand for the permissions people have for the file. In all of these cases, Kinger has full read-write access, so they're unimportant here.
+* "drwxr-xr-x" and "-rwxr-xr-x" are shorthand for the permissions people have for the file. In all of these cases, Kinger has full read-write access (meaning he can view and change all the files), so they're unimportant here.
 * The first number is the number of subdirectories or hard links to the file or directory. Unimportant for our purposes.
 * "root wheel" seems to be a folder name of some sort and I don't really understand it, but it's basically saying everything here is in the same folder (which we knew already), so it's unimportant.
 * The second number is the size of the file. The Paraphernalia Engine (whatever that is), Scratch's mind, and Ragatha's mind are the exact same size, which is *extremely* rare for non-identical files. What exactly this means, though, is unclear.
@@ -120,15 +120,15 @@ $: DESTRUCTIVE WACKYTIME initiated! Lockout load sequence INITIATE!
 WACKYTIME_LOCKOUT: ████░░░░░░░░█  20% loaded
 ```
 * More of Caine talking about how he's being hacked and emergency protocols are starting.
-* Based on the name, "WACKYTIME_LOCKOUT" seems to be a program that either prevents any modifications to the mainframe or prevents remote access.
+* Based on the name, "WACKYTIME_LOCKOUT" seems to be a program that either prevents any modifications to the mainframe or prevents remote access. Either way, Kinger would be completely prevented from stopping Caine.
 
 ```
 kinger@circus:~$ systemctl stop WACKYTIME_LOCKOUT
 $: On what GROUNDS are your Authority?
 ```
 * Kinger tries to use systemctl, a command that can control the most basic level of the operating system, to stop the WACKYTIME_LOCKOUT, but *again* fails because he doesn't use administrator privileges.
-  * I want to point out again just how weird it is that Kinger isn't using administrator privileges. For Linux, all you need to do is type ```sudo``` before the command you want to run and put in your password again.
-  * [s] Maybe Kinger is afraid of hurting Caine or provoking a physical response.
+  * I want to point out just how weird it is that Kinger isn't using administrator privileges. For Linux, all you need to do is type ```sudo``` before the command you want to run and put in your password again.
+  * [s] Maybe Kinger is afraid of hurting Caine or provoking a conscious/physical response.
 
 ```
 kinger@circus:~$ ./GreenGROUNDS --daemon --target=torment+injection &
@@ -142,6 +142,24 @@ $: I must hand it to y*u G░an░, y0ur mind was a(ways resourceâul.
   * [s] Many people (including myself) think he was trying to say "Grant."
   * Why it was censored is unclear.
 
+```
+kinger@circus:~$ -u kinger ./securitysweep_stealth
+$: Abort fallback procedure? [Y/N]
+kinger@circus:~$ Y
+$: Aborting fallback requires ADMINISTRATOR confirmation!
+$: Please enter code:
+kinger@circus:~$ admin1234
+$: INCORRECT! That's not even CLOSE to wacky enough!
+$: Retry with different code? [Y/N]
+kinger@circus:~$ Y
+WACKYTIME_LOCKOUT:  ██████░░░░░░█  40% loaded
+$: Enter WACKY code now:
+kinger@circus:~$ PARAPHERNALIA
+WACKYTIME: 35 seconds remaining
+$: That IS a wacky word! But WRONG code!
+```
+* Kinger finally uses an admin command! This time it seems like he's trying to stop the WACKYTIME_LOCKOUT.
+* Unfortunately for Kinger, Caine seems to have changed the password. Kinger tries "admin1234", likely the default password, but Caine says it's "not even CLOSE to wacky enough!" So he tries a wacky word that Caine likes, PARAPHERNALIA (which Caine uses in the intro of episode 1), but it's still incorrect.
 
 
 
