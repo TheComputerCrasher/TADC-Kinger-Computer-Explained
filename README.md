@@ -161,6 +161,35 @@ $: That IS a wacky word! But WRONG code!
 * Kinger finally uses an admin command! This time it seems like he's trying to stop the WACKYTIME_LOCKOUT.
 * Unfortunately for Kinger, Caine seems to have changed the password. Kinger tries "admin1234", likely the default password, but Caine says it's "not even CLOSE to wacky enough!" So he tries a wacky word that Caine likes, PARAPHERNALIA (which Caine uses in the intro of episode 1), but it's still incorrect.
 
+```
+$: System selecting SAFEST option for stability
+$: Cancel automatic selection? [Y/N]
+kinger@circus:~$ Y
+```
+* The system tries to select some option for Kinger, but he refuses.
+* [s] He likely refuses since the system has been working against him this whole time.
+
+```
+WACKYTIME_LOCKOUT:  ████████░░░░█  50% loaded
+$: Which backup do you want? [A/B/C]
+kinger@circus:~$ C
+$: NONE selected! Interpreted as: DELETE [covered] NONE!
+$: Confirm deletion of current unstable [covered]
+kinger@circus:~$ N
+```
+* From here, parts of the screen are covered by images of Caine and Bubble, so it's harder to make out what's happening.
+* Kinger tries to load a backup, presumably of Caine to reset him, but the system doesn't register it and tries to delete something instead. Kinger refuses the deletion.
+
+```
+$: Negative response! Inverting to [covered] as per [covered] protocols!
+$: [covered] DELETE THIS M***********, HAHAHAHAHAaaaaaaaaaaaa
+kinger@circus:~$ N
+$: WACKYTIME_LOCKOUT:  ██████████░░█  80% loaded
+$: IGNORED! proceeding with ORIGINAL d [covered]
+$: Actually you're CONFUSED let me HELP, [covered] EXIST? [Y/N]
+kinger@circus:~$ Y
+```
+* Caine seems to be misunderstanding (intentionally or not is unclear) and trying to delete himself, while Kinger is trying to prevent the deletion.
 
 
 
