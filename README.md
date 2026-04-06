@@ -194,6 +194,8 @@ $: Actually you're CONFUSED let me HELP, [covered] EXIST? [Y/N]
 kinger@circus:~$ Y
 ```
 * Caine seems to be misunderstanding Kinger (whether intentionally or not is unclear) and trying to delete himself, while Kinger is trying to prevent the deletion.
+* Caine swears for the third time in the series.
+  * There is a theory that the one who swears here is Bubble, but there is no concrete evidence for or against it.
 
 ```
 $:Querri transaction error falling back to default met [covered]
