@@ -1,11 +1,11 @@
-Explaining **everything** in Kinger's terminal in The Amazing Digital Circus: Episode 8. Speculation is marked by [s] before a sentence.
+Explaining **everything** in Kinger's terminal in The Amazing Digital Circus: Episode 8. Speculation is marked by [s].
 
 ```# System: KingSolution 2.0 / Digital Circus Mainframe```
 * "2.0" implies this is Kinger's second version of the program to get into the Digital Circus's mainframe.
 * A mainframe is a powerful (although not super) computer, often used as a server.[[1]](https://en.wikipedia.org/wiki/Mainframe_computer)
 
 ```# Date: 1996-10-30```
-* Later entries show the Circus (or at least a lot of things related to it, like Bubble and the Wacky Watch) was created on October *15th*, 1996, 15 days before this program was created. Something must have happened that deleted KingSolution 1.0 after the Circus was created. 
+* Later things in the terminal show the Circus (or at least a lot of things related to it, like Bubble and the Wacky Watch) was created on October *15th*, 1996, 15 days before this program was created. Something must have happened that deleted KingSolution 1.0 after the Circus was created. 
 * [s] Did Caine delete it to stop the researchers from messing with his code?
 
 ```# Host: circus digital```
@@ -42,11 +42,11 @@ root 1340 /usr/ai/module/brainscans
 ```
 * What he finds from the search are files named "caine" and "experimental" in the /usr/ai/agent directory and files named "consciousnessresearch" and "brainscans" in the /usr/ai/module directory.
   * [s] The "experimental AI agent" may be the blue AI that Caine absorbed in the episode's intro animation.
-  * [s] It's also possible the experimental one was the original version of Caine, then when he absorbed the blue AI he renamed himself after the Biblical Cain because he "killed" his fellow AI.
-* Based on the file structure, the mainframe seems to be running Linux, while Kinger is on Windows.
+  * [s] It's also possible the experimental one was the original version of Caine, who absorbed the blue AI and adopted the name of the Biblical Cain because he "killed" his fellow AI.
+* Based on the file structures, the mainframe is running Linux, while Kinger's computer is running Windows.
 
 ```kinger@circus:~$ /secured/```
-* Kinger checks what's in the "secured" folder, because Caine will likely only notice what Kinger's doing when Kinger messes with critical files.
+* Kinger checks what's in the "secured" folder, [s] because Caine will likely only notice what Kinger's doing when Kinger messes with critical files.
 
 ```total 8492```
 * There are 8492 files in the "secured" folder, so there's a lot to look through.
@@ -67,12 +67,14 @@ drwxr-xr-x 45 root wheel 1024 Oct 15 1996 ..
 * The first number is the number of subdirectories or hard links to the file or directory. Unimportant for our purposes.
 * "root wheel" seems to be a folder name of some sort and I don't really understand it, but it's basically saying everything here is in the same folder (which we knew already), so it's unimportant.
 * The second number is the size of the file. The Paraphernalia Engine (whatever that is), Scratch's mind, and Ragatha's mind are the exact same size, which is *extremely* rare for non-identical files. What exactly this means, though, is unclear.
-  * [s] It's likely that these are not their actual mind files, since these are only a few megabytes despite the human brain's storage being in the petabyte (about a million gigabytes) range.[[3]](https://www.science.org/content/article/human-brain-big-internet)
+  * [s] It's likely that these are not their actual mind files, since these are only a few megabytes despite the human brain's potential storage being in the petabyte (about a million gigabytes) range.[[3]](https://www.science.org/content/article/human-brain-big-internet)
 * The next entry is the date, which is the last time each file was modified.
   * Caine's "core" was last modified the same day as the other Circus-specific files like Bubble and the Wacky Watch, so October 15, 1996 is likely the day he created the Circus.
   * [s] Since Ragatha's mind is still being used and Caine was still developing before the events of this episode (which take place in 2017),[[4]](https://x.com/quietxwater/status/1998030239147123142) this is more confirmation that the two mind files here are likely just information *about* the minds, and the "caine-core" is likely Caine's default/fallback programming.
     * If this is true, this confirms Scratch entered the Circus October 15, 1999, and Ragatha entered October 15, 2008 (the same day of the month Caine created the Circus).
       * [s] It's possible there is some sort of anniversary event in the real world where someone new tries out the Digital Circus on the anniversary of its creation.
+* It doesn't show all 8492 files because this is just a quick check. To do that, you would likely use a command like ```dir -Rl```.
+* For the Linux nerds, typing a directory name to see the first and last few files inside it is a feature of the tcsh shell.[[5]](https://manpages.ubuntu.com/manpages/jammy/man1/tcsh.1.html#:~:text=autolist)
 
 ```
 kinger@circus:~$ stop caine process
@@ -85,7 +87,7 @@ kinger@circus:~$ /usr/bin/gdb /usr/local/bin/clisp 1337
 gdb: ptrace: Operation not permitted
 ERROR: Protected by 57x immersive AI defense system
 ```
-* Kinger tries to use GDB (GNU project DeBugger) to see what's going on inside of clisp (the programming language Caine runs in), but it fails due to the "57x immersive AI defense system"
+* Kinger tries to use GDB (GNU project DeBugger) to see what's going on inside of clisp (the programming language Caine runs in), but it fails due to the "57x immersive AI defense system".
   * A reference to Caine's mention  of the "57 times more immersive" AI in episode 2.
 
 ```
@@ -93,8 +95,8 @@ kinger@circus:~$ chmod 000 /secured/caine-core.lisp
 chmod: /secured/caine-core.lisp: Permission denied
 WARNING: Unfinished work detected. Access restricted.
 ```
-* Kinger tries to remove all permissions from the "caine-core" file from earlier so that it can't run, but it fails because the system detected "unfinished work."
-  * [s] Likely a jab from Caine at the fact that Kinger and the other researchers abandoned him before he was "finished."
+* Kinger tries to remove all permissions from the "caine-core" file from earlier so that it can't run, but it fails because the system detected "unfinished work".
+  * [s] Likely a jab from Caine at the fact that Kinger and the other researchers abandoned him before he was "finished".
 * It's unclear why Kinger refuses to use administrator privileges to run his commands.
 
 ```
@@ -128,7 +130,7 @@ $: On what GROUNDS are your Authority?
 ```
 * Kinger tries to use systemctl, a command that can control the most basic level of the operating system, to stop the WACKYTIME_LOCKOUT, but *again* fails because he doesn't use administrator privileges.
   * I want to point out just how weird it is that Kinger isn't using administrator privileges. For Linux, all you need to do is type ```sudo``` before the command you want to run and put in your password again.
-  * [s] Maybe Kinger is afraid of hurting Caine or provoking a conscious/physical response.
+  * [s] Maybe Kinger is afraid of hurting/deleting Caine or provoking a conscious/physical response, since this seems to be his subconscious fighting through the terminal.
 
 ```
 kinger@circus:~$ ./GreenGROUNDS --daemon --target=torment+injection &
@@ -158,7 +160,7 @@ kinger@circus:~$ PARAPHERNALIA
 WACKYTIME: 35 seconds remaining
 $: That IS a wacky word! But WRONG code!
 ```
-* Kinger finally uses an admin command! This time it seems like he's trying to stop the WACKYTIME_LOCKOUT.
+* Kinger finally uses an admin command! He seems to be trying to stop the WACKYTIME_LOCKOUT again.
 * Unfortunately for Kinger, Caine seems to have changed the password. Kinger tries "admin1234", likely the default password, but Caine says it's "not even CLOSE to wacky enough!" So he tries a wacky word that Caine likes, PARAPHERNALIA (which Caine uses in the intro of episode 1), but it's still incorrect.
 
 ```
@@ -166,7 +168,7 @@ $: System selecting SAFEST option for stability
 $: Cancel automatic selection? [Y/N]
 kinger@circus:~$ Y
 ```
-* The system tries to select some option for Kinger, but he refuses.
+* The system tries to select an unknown option for Kinger, but he refuses.
 * [s] He likely refuses since the system has been working against him this whole time.
 
 ```
@@ -177,26 +179,26 @@ $: NONE selected! Interpreted as: DELETE [covered] NONE!
 $: Confirm deletion of current unstable [covered]
 kinger@circus:~$ N
 ```
-* From here, parts of the screen are covered by images of Caine and Bubble, so it's harder to make out what's happening.
-* Kinger tries to load a backup, presumably of Caine to reset him, but the system doesn't register it and tries to delete something instead. Kinger refuses the deletion.
+* From here, large parts of the screen are covered by images of Caine and Bubble, so it's difficult to make out what's happening.
+* Kinger tries to load a backup ([s] presumably of Caine to reset him), but the system doesn't register it and tries to delete something instead. Kinger refuses the deletion.
 
 ```
 $: Negative response! Inverting to [covered] as per [covered] protocols!
 $: [covered] DELETE THIS M***********, HAHAHAHAHAaaaaaaaaaaaa
 kinger@circus:~$ N
-$: WACKYTIME_LOCKOUT:  ██████████░░█  80% loaded
+WACKYTIME_LOCKOUT:  ██████████░░█  80% loaded
 $: IGNORED! proceeding with ORIGINAL d [covered]
 $: Actually you're CONFUSED let me HELP, [covered] EXIST? [Y/N]
 kinger@circus:~$ Y
 ```
-* Caine seems to be misunderstanding Kinger (intentionally or not is unclear) and trying to delete himself, while Kinger is trying to prevent the deletion.
+* Caine seems to be misunderstanding Kinger (whether intentionally or not is unclear) and trying to delete himself, while Kinger is trying to prevent the deletion.
 
 ```
 $:Querri transaction error falling back to default met [covered]
 kinger@circus:~$ ./Switcheroo_realt --daemon --target=torment+injection &
 [covered] on --bi program1 program2 - [covered]
 ```
-* The system throws another nonsensical error, and Kinger tries a new program, seemingly with similar functionality to the GreenGROUNDS program he tried earlier.
+* The system throws another nonsensical error, and Kinger tries a new program, seemingly with similar functionality to the GreenGROUNDS program he tried earlier: it runs as a daemon and targets the torment injection.
 
 ```
 $: Are you ready to delete caine? [Y/N]
@@ -206,12 +208,12 @@ kinger@circus:~$ ./IABORT Rollback --depth=1 --force --protocol G WVJI
 kinger@circus:~$ ^C
 DESTRUCTIVE WACKYTIME Lockout Load Sequence: Complete
 ```
-* The system completely ignores Kinger's new program and, likely expecting a [Y/N] prompt from his program instead of the system, chooses yes.
-* The "./IABORT Rollback" and "^C" are basically the equivalent of hitting the undo button... but it's too late. Caine is deleted and the WACKYTIME_LOCKOUT is finished, so he can't do anything else.
+* The system completely ignores Kinger's new program and, likely expecting a [Y/N] prompt from his program instead of the system, Kinger accidentally chooses yes to deleting Caine.
+* The "./IABORT Rollback" and "^C" are basically the equivalent of hitting an undo button... But it's too late. Caine gets deleted and the WACKYTIME_LOCKOUT finishes loading, so Kinger can't do anything else.
 
 # Credits
 This project was inspired by [@summerwya's similar explanation](https://github.com/summerwya/hjsakldfhl), and I got a mostly-complete terminal transcript from there. Go check it out, it has a lot of info on the filesystem of Kinger's computer.
 
 I got a lot of info and theories from [@missyfrs's Tumblr post](https://www.tumblr.com/missyfrs/811651212864831488/) on the topic.
 
-And of course credit to Gooseworx, GLITCH, and everyone involved with making Digital Circus, for making this theorycrafting possible in the first place.
+And of course, credit to Gooseworx, GLITCH, and everyone involved with creating The Amazing Digital Circus, for making this theorycrafting possible in the first place.
