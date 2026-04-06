@@ -73,7 +73,40 @@ drwxr-xr-x 45 root wheel 1024 Oct 15 1996 ..
     * If this is true, this confirms Scratch entered the Circus October 15, 1999, and Ragatha entered October 15, 2008 (the same day of the month Caine created the Circus).
       * [s] It's possible C&A have some sort of anniversary event where someone new tries out the Digital Circus on the anniversary of its creation.
 
+```
+kinger@circus:~$ stop caine process
+WARNING: $"*%WHOOPS WRONG APPROACH THERE*%"
+```
+* Kinger tries (and fails) to temporarily shut Caine down, and we get the first indication that this isn't a normal terminal.
 
+```
+kinger@circus:~$ /usr/bin/gdb /usr/local/bin/clisp 1337
+gdb: ptrace: Operation not permitted
+ERROR: Protected by 57x immersive AI defense system
+```
+* Kinger tries to use GDB (GNU project DeBugger) to see what's going on inside of clisp (the programming language Caine runs in), but it fails due to the "57x immersive AI defense system"
+  * This is a reference to Caine's mention  of the "57 times more immersive" AI in episode 2.
+
+```
+kinger@circus:~$ chmod 000 /secured/caine-core.lisp
+chmod: /secured/caine-core.lisp: Permission denied
+WARNING: Unfinished work detected. Access restricted.
+```
+* Kinger tries to remove all permissions from the "caine-core" file from earlier so that it can't run, but it fails because the system detected "unfinished work."
+  * [s] Likely a jab from Caine at the fact that Kinger and the other researchers abandoned him before he was "finished."
+* It's unclear why Kinger refuses to use administrator privileges to run his commands.
+
+```
+kinger@circus:~$ rm /secured/paraphernalia-engine.dat
+rm: /secured/paraphernalia-engine.dat: Permission denied
+ERROR Can/not inject torm-nt. T0rment must be 100% ac<iden+al+%Y
+```
+* Kinger tries to remove the Paraphernalia Engine, but doesn't use the --force option or administrator privileges. The error this time is glitchy, and reads: "Cannot inject torment. Torment must be 100% accidental."
+  * A reference to episode 3, where Caine says: "I do NOT use my adventures to torture my guests! Any torment I inflict is 100% accidental, like any good war criminal!"
+
+```mount: only root can do that```
+* Kinger tries to mount (give himself access to) a filesystem, but it fails again because he refuses to use administrator privileges.
+  * [s] Since he's using the mainframe's terminal, he may be mounting his own filesystem to the mainframe so he can run a script he wrote on his computer. 
 
 # Credits
 This project was inspired by [@summerwya's similar explanation](https://github.com/summerwya/hjsakldfhl), and I got a mostly-complete terminal transcript from there. 
