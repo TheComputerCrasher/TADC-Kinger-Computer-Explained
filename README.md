@@ -143,7 +143,8 @@ $: I must hand it to y*u G░an░, y0ur mind was a(ways resourceâul.
 * Kinger tries to start a program called GreenGROUNDS in the form of a "daemon", a constantly-running background program, seemingly to stop Caine's "torment injection".
 * This time, the command seems to work, since there is a security alert from the system.
 * Caine seems surprised by this program, and says Kinger's real name (albeit partially censored) while talking directly to him.
-  * [s] Many people (including myself) think he was trying to say "Grant."
+  * [s] Many people (including myself) think he was trying to say "Grant" or "Grand."
+  * [s] "Grand" may be a reference to Steve Grand, best known for his artificial life simulation created in 1996, the same year the Circus was created.<sup>[[7]](https://en.wikipedia.org/wiki/Steve_Grand_(roboticist))</sup>
   * Why it was censored is unclear.
 
 ```
