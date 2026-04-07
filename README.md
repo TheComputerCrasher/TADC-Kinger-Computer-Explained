@@ -234,3 +234,5 @@ And of course, credit to Gooseworx, GLITCH, and everyone involved with creating 
 [5] https://x.com/quietxwater/status/1998030239147123142
 
 [6] https://manpages.ubuntu.com/manpages/jammy/man1/tcsh.1.html#:~:text=autolist
+
+[7] https://en.wikipedia.org/wiki/Steve_Grand_(roboticist)
