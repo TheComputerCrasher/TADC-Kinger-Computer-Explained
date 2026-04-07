@@ -7,7 +7,7 @@ Speculation is marked by [s].
 * A mainframe is a powerful (although not super) computer, often used as a server.<sup>[[1]](https://en.wikipedia.org/wiki/Mainframe_computer)</sup>
 
 ```# Date: 1996-10-30```
-* Later things in the terminal show the Circus (or at least a lot of things related to it, like Bubble and the Wacky Watch) was created on October *15th*, 1996, 15 days before this program was created. Something must have happened that deleted KingSolution 1.0 after the Circus was created. 
+* Later things in the terminal show that a lot of things related to the Circus, like Bubble and the Wacky Watch, were last modified on October *15th*, 1996, 15 days before this program was last changed. Something must have happened that deleted or removed access to KingSolution 1.0 after the Circus was created. 
 * [s] Did Caine delete it to stop the researchers from messing with his code?
 
 ```# Host: circus digital```
@@ -67,8 +67,8 @@ drwxr-xr-x 45 root wheel 1024 Oct 15 1996 ..
 ```
 * "drwxr-xr-x" and "-rwxr-xr-x" are shorthand for the permissions people have for the file. In all of these cases, Kinger has full read-write access (meaning he can view and change all the files), so they're unimportant here.
 * The first number is the number of subdirectories or hard links to the file or directory. Unimportant for our purposes.
-* "root wheel" seems to be a folder name of some sort and I don't really understand it, but it's basically saying everything here is in the same folder (which we knew already), so it's unimportant.
-* The second number is the size of the file. The Paraphernalia Engine (whatever that is), Scratch's mind, and Ragatha's mind are the exact same size, which is *extremely* rare for non-identical files. What exactly this means, though, is unclear.
+* "root wheel" seems to be the server name despite it earlier being "circus digital". I don't *really* understand it, but it's basically saying everything here is in the same server. 
+* The second number is the size of each file. The Paraphernalia Engine (whatever that is), Scratch's mind, and Ragatha's mind are the exact same size, which is *extremely* rare for non-identical files. What exactly this means, though, is unclear.
   * [s] It's likely that these are not their actual mind files, since these are only a few megabytes despite the human brain's potential storage being in the petabyte (about a million gigabytes) range.<sup>[[3]](https://www.science.org/content/article/human-brain-big-internet)</sup>
 * The next entry is the date, which is the last time each file was modified.
   * Caine's "core" was last modified the same day as the other Circus-specific files like Bubble and the Wacky Watch, so October 15, 1996 is likely the day he created the Circus.
@@ -90,7 +90,7 @@ gdb: ptrace: Operation not permitted
 ERROR: Protected by 57x immersive AI defense system
 ```
 * Kinger tries to use GDB (GNU project DeBugger) to see what's going on inside of clisp (the programming language Caine runs in), but it fails due to the "57x immersive AI defense system".
-  * A reference to Caine's mention  of the "57 times more immersive" AI in episode 2.
+* This is a reference to Caine's mention  of the "57 times more immersive" AI in episode 2.
 
 ```
 kinger@circus:~$ chmod 000 /secured/caine-core.lisp
@@ -107,7 +107,7 @@ rm: /secured/paraphernalia-engine.dat: Permission denied
 ERROR Can/not inject torm-nt. T0rment must be 100% ac<iden+al+%Y
 ```
 * Kinger tries to remove the Paraphernalia Engine, but doesn't use the --force option or administrator privileges. The error this time is glitchy, and reads: "Cannot inject torment. Torment must be 100% accidental."
-  * A reference to episode 3, where Caine says: "I do NOT use my adventures to torture my guests! Any torment I inflict is 100% accidental, like any good war criminal!"
+* This is a reference to more Caine dialogue, this time in episode 3: "I do NOT use my adventures to torture my guests! Any torment I inflict is 100% accidental, like any good war criminal!"
 
 ```mount: only root can do that```
 * Kinger tries to mount (give himself access to) a filesystem, but it fails again because he refuses to use administrator privileges.
@@ -115,7 +115,7 @@ ERROR Can/not inject torm-nt. T0rment must be 100% ac<iden+al+%Y
 
 ```NOTE: Hundreds of all-seeing eyes are watching!```
 * Caine has officially noticed what Kinger is doing.
-  * A reference to episode 1, where Caine says: "We stay right here, where I can keep my hundreds of all-seeing eyes on you!"
+* This is a reference to Caine saying "We stay right here, where I can keep my hundreds of all-seeing eyes on you!" in episode 1.
 
 ```
 $: GASP! A CRITICAL MALFUNCTION in my SPECTACULAR systems!
@@ -132,7 +132,7 @@ $: On what GROUNDS are your Authority?
 ```
 * Kinger tries to use systemctl, a command that can control the most basic level of the operating system, to stop the WACKYTIME_LOCKOUT, but *again* fails because he doesn't use administrator privileges.
   * I want to point out just how weird it is that Kinger isn't using administrator privileges. For Linux, all you need to do is type ```sudo``` before the command you want to run and put in your password again.
-  * [s] Maybe Kinger is afraid of hurting/deleting Caine or provoking a conscious/physical response, since this seems to be his subconscious fighting through the terminal.
+  * [s] Maybe Kinger is afraid of hurting/deleting Caine or provoking a conscious/physical response, since this seems to be just his subconscious mind.
 
 ```
 kinger@circus:~$ ./GreenGROUNDS --daemon --target=torment+injection &
@@ -170,8 +170,7 @@ $: System selecting SAFEST option for stability
 $: Cancel automatic selection? [Y/N]
 kinger@circus:~$ Y
 ```
-* The system tries to select an unknown option for Kinger, but he refuses.
-* [s] He likely refuses since the system has been working against him this whole time.
+* The system tries to select an unknown option for Kinger, but he refuses, [s] likely because the system has been working against him this whole time.
 
 ```
 WACKYTIME_LOCKOUT:  ████████░░░░█  50% loaded
@@ -213,7 +212,7 @@ kinger@circus:~$ ^C
 DESTRUCTIVE WACKYTIME Lockout Load Sequence: Complete
 ```
 * The system completely ignores Kinger's new program and, likely expecting a [Y/N] prompt from his program instead of the system, Kinger accidentally chooses yes to deleting Caine.
-* The "./IABORT Rollback" and "^C" are basically the equivalent of hitting an undo button... But it's too late. Caine gets deleted and the WACKYTIME_LOCKOUT finishes loading, so Kinger can't do anything else.
+* ```./IABORT Rollback``` and ```^C``` are basically the equivalent of hitting an undo button... But it's too late. Caine gets deleted and the WACKYTIME_LOCKOUT finishes loading, so Kinger can't do anything else.
 
 # Credits
 Credit to all of the various sources I linked to in my explanations.
