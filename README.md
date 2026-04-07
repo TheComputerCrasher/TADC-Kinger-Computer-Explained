@@ -44,7 +44,7 @@ root 1340 /usr/ai/module/brainscans
 ```
 * What he finds from the search are files named "caine" and "experimental" in the /usr/ai/agent directory and files named "consciousnessresearch" and "brainscans" in the /usr/ai/module directory.
   * [s] The "experimental AI agent" may be the blue AI that Caine absorbed in the episode's intro animation.
-  * [s] It's also possible the experimental one was the original version of Caine, who absorbed the blue AI and adopted the name of the Biblical Cain because he "killed" his fellow AI.
+  * [s] It's also possible the experimental one was the original version of Caine, who absorbed the blue AI and adopted the name of the Biblical Cain because he "killed" his fellow AI. After all, Gooseworx has confirmed that Caine named himself.<sup>[[3]](https://www.tumblr.com/gooseworx/707839652836573184/can-we-get-a-name-for-the-teeth-man)</sup>
 * Based on the file structures, the mainframe is running Linux, while Kinger's computer is running Windows.
 
 ```kinger@circus:~$ /secured/```
@@ -69,14 +69,14 @@ drwxr-xr-x 45 root wheel 1024 Oct 15 1996 ..
 * The first number is the number of subdirectories or hard links to the file or directory. Unimportant for our purposes.
 * "root wheel" seems to be the server name despite it earlier being "circus digital". I don't *really* understand it, but it's basically saying everything here is in the same server. 
 * The second number is the size of each file. The Paraphernalia Engine (whatever that is), Scratch's mind, and Ragatha's mind are the exact same size, which is *extremely* rare for non-identical files. What exactly this means, though, is unclear.
-  * [s] It's likely that these are not their actual mind files, since these are only a few megabytes despite the human brain's potential storage being in the petabyte (about a million gigabytes) range.<sup>[[3]](https://www.science.org/content/article/human-brain-big-internet)</sup>
+  * [s] It's likely that these are not their actual mind files, since these are only a few megabytes despite the human brain's potential storage being in the petabyte (about a million gigabytes) range.<sup>[[4]](https://www.science.org/content/article/human-brain-big-internet)</sup>
 * The next entry is the date, which is the last time each file was modified.
   * Caine's "core" was last modified the same day as the other Circus-specific files like Bubble and the Wacky Watch, so October 15, 1996 is likely the day he created the Circus.
-  * [s] Since Ragatha's mind is still being used and Caine was still developing before the events of this episode (which takes place in 2017<sup>[[4]](https://x.com/quietxwater/status/1998030239147123142)</sup>), this is more confirmation that the two mind files here are likely just information *about* the minds, and the "caine-core" is likely Caine's default/fallback programming.
+  * [s] Since Ragatha's mind is still being used and Caine was still developing before the events of this episode (which takes place in 2017<sup>[[5]](https://x.com/quietxwater/status/1998030239147123142)</sup>), this is more confirmation that the two mind files here are likely just information *about* the minds, and the "caine-core" is likely Caine's default/fallback programming.
     * If this is true, this confirms Scratch entered the Circus October 15, 1999, and Ragatha entered October 15, 2008 (the same day of the month Caine created the Circus).
       * [s] It's possible there is some sort of anniversary event in the real world where someone new tries out the Digital Circus on the anniversary of its creation.
 * It doesn't show all 8492 files because this is just a quick check. To do that, you would likely use a command like ```dir -Rl```.
-* For the Linux nerds, typing a directory name to see the first and last few files inside it is a feature of the tcsh shell.<sup>[[5]](https://manpages.ubuntu.com/manpages/jammy/man1/tcsh.1.html#:~:text=autolist)</sup>
+* For the Linux nerds, typing a directory name to see the first and last few files inside it is a feature of the tcsh shell.<sup>[[6]](https://manpages.ubuntu.com/manpages/jammy/man1/tcsh.1.html#:~:text=autolist)</sup>
 
 ```
 kinger@circus:~$ stop caine process
