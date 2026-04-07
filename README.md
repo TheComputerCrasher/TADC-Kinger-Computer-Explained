@@ -215,10 +215,16 @@ DESTRUCTIVE WACKYTIME Lockout Load Sequence: Complete
 * ```./IABORT Rollback``` and ```^C``` are basically the equivalent of hitting an undo button... But it's too late. Caine gets deleted and the WACKYTIME_LOCKOUT finishes loading, so Kinger can't do anything else.
 
 # Credits
-Credit to all of the various sources I linked to in my explanations.
-
 This project was inspired by [@summerwya's similar explanation](https://github.com/summerwya/hjsakldfhl), and I got a mostly-complete terminal transcript from there. Go check it out, it has a lot of info on the filesystem of Kinger's computer.
 
 I got a lot of info and theories from [@missyfrs's Tumblr post](https://www.tumblr.com/missyfrs/811651212864831488/) on the topic.
 
 And of course, credit to Gooseworx, GLITCH, and everyone involved with creating The Amazing Digital Circus, for making this theorycrafting possible in the first place.
+
+# Citations
+[1] https://en.wikipedia.org/wiki/Mainframe_computer
+[2] https://en.wikipedia.org/wiki/Telnet
+[3] https://www.tumblr.com/gooseworx/707839652836573184
+[4] https://www.science.org/content/article/human-brain-big-internet
+[5] https://x.com/quietxwater/status/1998030239147123142
+[6] https://manpages.ubuntu.com/manpages/jammy/man1/tcsh.1.html#:~:text=autolist
