@@ -223,8 +223,13 @@ And of course, credit to Gooseworx, GLITCH, and everyone involved with creating 
 
 # Citations
 [1] https://en.wikipedia.org/wiki/Mainframe_computer
+
 [2] https://en.wikipedia.org/wiki/Telnet
+
 [3] https://www.tumblr.com/gooseworx/707839652836573184
+
 [4] https://www.science.org/content/article/human-brain-big-internet
+
 [5] https://x.com/quietxwater/status/1998030239147123142
+
 [6] https://manpages.ubuntu.com/manpages/jammy/man1/tcsh.1.html#:~:text=autolist
