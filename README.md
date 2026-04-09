@@ -18,12 +18,12 @@ Speculation is marked by [s].
 * [s] How is the mainframe still running over 20 years later if C&A is abandoned like we've been seeing? Or is the mainframe itself *within* the digital world? 
 
 ```Login: "kinger"```
-* "Kinger" seems to be his C&A username, since he was able to log in to the mainframe with it.
+* "Kinger" was likely his C&A username, since he was able to log in to the mainframe with it.
 
 ```Pass: queenie123```
 * "Queenie" is the circus name of Kinger's wife, but it's unclear how the name connects to her in the physical world.
 * [s] Possible explanations include:
-  * She was a C&A employee like him
+  * She was a C&A employee like him and "Queenie" was her username
   * "Queenie" was a nickname/pet name for her
 
 ```
@@ -42,13 +42,13 @@ root 1338 /usr/ai/agent/experimental
 root 1339 /usr/ai/module/consciousnessresearch
 root 1340 /usr/ai/module/brainscans
 ```
-* What he finds from the search are files named "caine" and "experimental" in the /usr/ai/agent directory and files named "consciousnessresearch" and "brainscans" in the /usr/ai/module directory.
+* What he finds from the search are files named "caine" and "experimental" in the /usr/ai/agent/ folder and files named "consciousnessresearch" and "brainscans" in the /usr/ai/module/ folder.
   * [s] The "experimental AI agent" may be the blue AI that Caine absorbed in the episode's intro animation.
   * [s] It's also possible the experimental one was the original version of Caine, who absorbed the blue AI and adopted the name of the Biblical Cain because he "killed" his fellow AI. After all, Gooseworx has confirmed that Caine named himself.<sup>[[3]](https://www.tumblr.com/gooseworx/707839652836573184/can-we-get-a-name-for-the-teeth-man)</sup>
 * Based on the file structures, the mainframe is running Linux, while Kinger's computer is running Windows.
 
 ```kinger@circus:~$ /secured/```
-* Kinger checks what's in the "secured" folder, [s] because Caine will likely only notice what Kinger's doing when Kinger messes with critical files.
+* Kinger checks what's in the /secured/ folder, [s] because Caine will likely only notice what Kinger's doing when Kinger messes with critical files.
 
 ```total 8492```
 * There are 8492 files in the "secured" folder, so there's a lot to look through.
@@ -112,6 +112,7 @@ ERROR Can/not inject torm-nt. T0rment must be 100% ac<iden+al+%Y
 ```mount: only root can do that```
 * Kinger tries to mount (give himself access to) a filesystem, but it fails again because he refuses to use administrator privileges.
   * [s] Since he's using the mainframe's terminal, he may be trying to mount his own filesystem to the mainframe so he can run a script he wrote on his computer.
+  * We don't know what he tried to mount because it is not shown on-screen due to the transitions between scenes.
 
 ```NOTE: Hundreds of all-seeing eyes are watching!```
 * Caine has officially noticed what Kinger is doing.
@@ -140,12 +141,11 @@ $: "SECURITY ALERT: Multiple exploit attempts logged"
 $: WHOA when did you make THAT?
 $: I must hand it to y*u G░an░, y0ur mind was a(ways resourceâul.
 ```
-* Kinger tries to start a program called GreenGROUNDS in the form of a "daemon", a constantly-running background program, seemingly to stop Caine's "torment injection".
-* This time, the command seems to work, since there is a security alert from the system.
+* Kinger tries to start a program called GreenGROUNDS in the form of a "daemon", a constantly-running background program, seemingly to stop Caine's "torment injection". This time, the command seems to work, since there is a security alert from the system.
 * Caine seems surprised by this program, and says Kinger's real name (albeit partially censored) while talking directly to him.
   * [s] Many people (including myself) think he was trying to say "Grant" or "Grand."
-  * [s] "Grand" may be a reference to Steve Grand, best known for his artificial life simulation created in 1996, the same year the Circus was created.<sup>[[7]](https://en.wikipedia.org/wiki/Steve_Grand_(roboticist))</sup>
-  * Why it was censored is unclear.
+    * [s] "Grand" may be a reference to Steve Grand, best known for his artificial life simulation created in 1996, the same year the Circus was created.<sup>[[7]](https://en.wikipedia.org/wiki/Steve_Grand_(roboticist))</sup>
+  * Why his name was censored is unclear.
 
 ```
 kinger@circus:~$ -u kinger ./securitysweep_stealth
@@ -213,10 +213,10 @@ kinger@circus:~$ ^C
 DESTRUCTIVE WACKYTIME Lockout Load Sequence: Complete
 ```
 * The system completely ignores Kinger's new program and, likely expecting a [Y/N] prompt from his program instead of the system, Kinger accidentally chooses yes to deleting Caine.
-* ```./IABORT Rollback``` and ```^C``` are basically the equivalent of hitting an undo button... But it's too late. Caine gets deleted and the WACKYTIME_LOCKOUT finishes loading, so Kinger can't do anything else.
+* ```./IABORT Rollback``` and ```^C``` are basically the equivalent of hitting an undo button... But it's too late. Caine gets deleted right as the WACKYTIME_LOCKOUT finishes loading, so Kinger can't undo.
 
 # Credits
-This project was inspired by [@summerwya's similar explanation](https://github.com/summerwya/hjsakldfhl), and I got a mostly-complete terminal transcript from there. Go check it out, it has a lot of info on the filesystem of Kinger's computer.
+This project was inspired by [@summerwya's similar explanation](https://github.com/summerwya/hjsakldfhl), and I got a mostly-complete terminal transcript from there. Go check it out, it has a lot of info on the Kinger's computer, especially the filesystem.
 
 I got a lot of info and theories from [@missyfrs's Tumblr post](https://www.tumblr.com/missyfrs/811651212864831488/) on the topic.
 
