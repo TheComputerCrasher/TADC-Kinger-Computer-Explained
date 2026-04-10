@@ -11,10 +11,10 @@ Speculation is marked by [s].
 * [s] Did Caine delete it to stop the researchers from messing with his code?
 
 ```# Host: circus digital```
-* The ID or name of the server the program is connecting to. Not sure why it's in reverse order.
+* The ID or name of the server the program is connecting to. I'm not sure why it's in reverse order, but it's not important.
 
 ```"Initializing telnet connection..."```
-* Telnet is a way to access the terminal of, and therefore run commands on, an external server, in this case the mainframe.<sup>[[2]](https://en.wikipedia.org/wiki/Telnet)</sup>
+* Telnet is a way to access the terminal of, and therefore run commands on, an external server,<sup>[[2]](https://en.wikipedia.org/wiki/Telnet)</sup> in this case the mainframe.
 * [s] How is the mainframe still running over 20 years later if C&A is abandoned like we've been seeing? Or is the mainframe itself *within* the digital world? 
 
 ```Login: "kinger"```
@@ -23,18 +23,18 @@ Speculation is marked by [s].
 ```Pass: queenie123```
 * "Queenie" is the circus name of Kinger's wife, but it's unclear how the name connects to her in the physical world.
 * [s] Possible explanations include:
-  * She was a C&A employee like him and "Queenie" was her username
-  * "Queenie" was a nickname/pet name for her
+  * She was a C&A employee like him and "Queenie" was her username.
+  * "Queenie" was a nickname/pet name for her.
 
 ```
 kinger@circus:~$ whoami
 kinger - administrator
 ```
-* Not as deep as you might want to think: ```whoami``` in this case is just being used to check if Kinger has admin privileges, which he does.
+* Not as deep as you might want to think: ```whoami``` is just a command used to make sure that the user is logged in as the correct account and if they have administrator privileges, both of which seem to be true for Kinger.
 
 ```kinger@circus:~$ grep AI-Location```
 * Since Kinger didn't specify what file to search, the ```grep``` command searches for the text "AI-Location" in every file on the mainframe.
-* [s] Probably searching for a specific variable that he knew was in specifically the AI files he wanted to look at.
+* [s] He was probably searching for a specific variable that he knew was in specifically the AI files he wanted to look at.
 
 ```
 root 1337 /usr/ai/agent/caine
@@ -67,15 +67,15 @@ drwxr-xr-x 45 root wheel 1024 Oct 15 1996 ..
 ```
 * "drwxr-xr-x" and "-rwxr-xr-x" are shorthand for the permissions people have for the file. In all of these cases, Kinger has full read-write access (meaning he can view and change all the files), so they're unimportant here.
 * The first number is the number of subdirectories or hard links to the file or directory. Unimportant for our purposes.
-* "root wheel" seems to be the server name despite it earlier being "circus digital". I don't *really* understand it, but it's basically saying everything here is in the same server. 
+* "root wheel" seems to be the name of the server these files are stored on, which seems to be separate from the "circus digital" server from before. Honestly I don't completely understand it, but just know all these files are in the same location.
 * The second number is the size of each file. The Paraphernalia Engine (whatever that is), Scratch's mind, and Ragatha's mind are the exact same size, which is *extremely* rare for non-identical files. What exactly this means, though, is unclear.
   * [s] It's likely that these are not their actual mind files, since these are only a few megabytes despite the human brain's potential storage being in the petabyte (about a million gigabytes) range.<sup>[[4]](https://www.science.org/content/article/human-brain-big-internet)</sup>
 * The next entry is the date, which is the last time each file was modified.
   * Caine's "core" was last modified the same day as the other Circus-specific files like Bubble and the Wacky Watch, so October 15, 1996 is likely the day he created the Circus.
-  * [s] Since Ragatha's mind is still being used and Caine was still developing before the events of this episode (which takes place in 2017<sup>[[5]](https://x.com/quietxwater/status/1998030239147123142)</sup>), this is more confirmation that the two mind files here are likely just information *about* the minds, and the "caine-core" is likely Caine's default/fallback programming.
-    * If this is true, this confirms Scratch entered the Circus October 15, 1999, and Ragatha entered October 15, 2008 (the same day of the month Caine created the Circus).
+  * [s] Since Ragatha's mind is still being used and Caine was still developing before the events of this episode (which takes place in 2017<sup>[[5]](https://x.com/quietxwater/status/1998030239147123142)</sup>), this is more confirmation that the two mind files here are likely just information *about* the mind files (metadata), and the "caine-core" is likely Caine's default/fallback programming.
+    * If this is true, this confirms Scratch entered the Circus October 15, 1999, and Ragatha entered October 15, 2008 (both on the anniversary of Caine creating the Circus).
       * [s] It's possible there is some sort of anniversary event in the real world where someone new tries out the Digital Circus on the anniversary of its creation.
-* It doesn't show all 8492 files because this is just a quick check. To do that, you would likely use a command like ```dir -Rl```.
+* It doesn't show all 8492 files because this is just a quick check. To do that, you can use a command like ```dir -Rl```.
 * For the Linux nerds, typing a directory name to see the first and last few files inside it is a feature of the tcsh shell.<sup>[[6]](https://manpages.ubuntu.com/manpages/jammy/man1/tcsh.1.html#:~:text=autolist)</sup>
 
 ```
@@ -98,7 +98,7 @@ chmod: /secured/caine-core.lisp: Permission denied
 WARNING: Unfinished work detected. Access restricted.
 ```
 * Kinger tries to remove all permissions from the "caine-core" file from earlier so that it can't run, but it fails because the system detected "unfinished work".
-  * [s] Likely a jab from Caine at the fact that Kinger and the other researchers abandoned him before he was "finished".
+  * [s] Possibly a jab from Caine at the fact that Kinger and the other researchers abandoned him before he was "finished".
 * It's unclear why Kinger refuses to use administrator privileges to run his commands.
 
 ```
@@ -107,12 +107,12 @@ rm: /secured/paraphernalia-engine.dat: Permission denied
 ERROR Can/not inject torm-nt. T0rment must be 100% ac<iden+al+%Y
 ```
 * Kinger tries to remove the Paraphernalia Engine, but doesn't use the --force option or administrator privileges. The error this time is glitchy, and reads: "Cannot inject torment. Torment must be 100% accidental."
-* This is a reference to more Caine dialogue, this time in episode 3: "I do NOT use my adventures to torture my guests! Any torment I inflict is 100% accidental, like any good war criminal!"
+* This is a reference to more Caine dialogue, this time from episode 3: "I do NOT use my adventures to torture my guests! Any torment I inflict is 100% accidental, like any good war criminal!"
 
 ```mount: only root can do that```
 * Kinger tries to mount (give himself access to) a filesystem, but it fails again because he refuses to use administrator privileges.
   * [s] Since he's using the mainframe's terminal, he may be trying to mount his own filesystem to the mainframe so he can run a script he wrote on his computer.
-  * We don't know what he tried to mount because it is not shown on-screen due to the transitions between scenes.
+  * We don't know what he tried to mount because it is not shown on-screen due to the fast-paced transitions not letting us see some lines of the terminal.
 
 ```NOTE: Hundreds of all-seeing eyes are watching!```
 * Caine has officially noticed what Kinger is doing.
@@ -124,15 +124,15 @@ $: Unauthorized isolation attempt triggered EMERGENCY PROTOCOLS!
 $: DESTRUCTIVE WACKYTIME initiated! Lockout load sequence INITIATE!
 WACKYTIME_LOCKOUT: ████░░░░░░░░█  20% loaded
 ```
-* More of Caine talking about how he's being hacked and emergency protocols are starting.
-* Based on the name, "WACKYTIME_LOCKOUT" seems to be a program that either prevents any modifications to the mainframe or prevents remote access. Either way, Kinger would be completely prevented from stopping Caine.
+* More of Caine talking about how he's being hacked and that emergency protocols are starting.
+* Based on the name, "WACKYTIME_LOCKOUT" seems to be a program that prevents remote access to the mainframe, "locking" Kinger out and preventing him from stopping Caine.
 
 ```
 kinger@circus:~$ systemctl stop WACKYTIME_LOCKOUT
 $: On what GROUNDS are your Authority?
 ```
 * Kinger tries to use systemctl, a command that can control the most basic level of the operating system, to stop the WACKYTIME_LOCKOUT, but *again* fails because he doesn't use administrator privileges.
-  * I want to point out just how weird it is that Kinger isn't using administrator privileges. For Linux, all you need to do is type ```sudo``` before the command you want to run and put in your password again.
+  * I want to point out just how weird it is that Kinger isn't using administrator privileges. On Linux (which is what the mainframe is using), all you need to do is type ```sudo``` before the command you want to use and put in your password again.
   * [s] Maybe Kinger is afraid of hurting/deleting Caine or provoking a conscious/physical response, since this seems to be just his subconscious mind.
 
 ```
@@ -164,7 +164,7 @@ WACKYTIME: 35 seconds remaining
 $: That IS a wacky word! But WRONG code!
 ```
 * Kinger finally uses an admin command! He seems to be trying to stop the WACKYTIME_LOCKOUT again.
-* Unfortunately for Kinger, Caine seems to have changed the password. Kinger tries "admin1234", likely the default password, but Caine says it's "not even CLOSE to wacky enough!" So he tries a wacky word that Caine likes, PARAPHERNALIA (which Caine uses in the intro of episode 1), but it's still incorrect.
+* Unfortunately for Kinger, Caine seems to have changed the password. Kinger tries "admin1234" ([s] likely the default password since it's so basic), but Caine says it's "not even CLOSE to wacky enough!" Kinger then tries a wacky word that Caine likes, PARAPHERNALIA (which Caine uses in the intro of episode 1), but it's apparently still incorrect.
 
 ```
 $: System selecting SAFEST option for stability
@@ -213,7 +213,7 @@ kinger@circus:~$ ^C
 DESTRUCTIVE WACKYTIME Lockout Load Sequence: Complete
 ```
 * The system completely ignores Kinger's new program and, likely expecting a [Y/N] prompt from his program instead of the system, Kinger accidentally chooses yes to deleting Caine.
-* ```./IABORT Rollback``` and ```^C``` are basically the equivalent of hitting an undo button... But it's too late. Caine gets deleted right as the WACKYTIME_LOCKOUT finishes loading, so Kinger can't undo.
+* ```./IABORT Rollback``` and ```^C``` (ctrl+C) are basically the equivalent of hitting an undo button... But it's too late. Caine gets deleted right as the WACKYTIME_LOCKOUT finishes loading, so Kinger can't undo.
 
 # Credits
 This project was inspired by [@summerwya's similar explanation](https://github.com/summerwya/hjsakldfhl), and I got a mostly-complete terminal transcript from there. Go check it out, it has a lot of info on the Kinger's computer, especially the filesystem.
