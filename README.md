@@ -75,7 +75,7 @@ drwxr-xr-x 45 root wheel 1024 Oct 15 1996 ..
   * [s] Since Ragatha's mind is still being used and Caine was still developing before the events of this episode (which takes place in 2017<sup>[[5]](https://x.com/quietxwater/status/1998030239147123142)</sup>), this is more confirmation that the two mind files here are likely just information *about* the mind files (metadata), and the "caine-core" is likely Caine's default/fallback programming.
     * If this is true, this confirms Scratch entered the Circus October 15, 1999, and Ragatha entered October 15, 2008 (both on the anniversary of Caine creating the Circus).
       * [s] It's possible there is some sort of anniversary event in the real world where someone new tries out the Digital Circus on the anniversary of its creation.
-* It doesn't show all 8492 files because this is just a quick check. To do that, you can use a command like ```dir -Rl```.
+* It doesn't show all 8492 files because this is just a quick check. To do that, you can use a command like ```dir``` or ```ls```.
 * For the Linux nerds, typing a directory name to see the first and last few files inside it is a feature of the tcsh shell.<sup>[[6]](https://manpages.ubuntu.com/manpages/jammy/man1/tcsh.1.html#:~:text=autolist)</sup>
 
 ```
