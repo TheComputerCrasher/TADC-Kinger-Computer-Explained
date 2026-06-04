@@ -7,18 +7,19 @@ Speculation is marked by [s].
 * A mainframe is a powerful (although not super) computer, often used as a server.<sup>[[1]](https://en.wikipedia.org/wiki/Mainframe_computer)</sup>
 
 ```# Date: 1996-10-30```
-* Later things in the terminal show that a lot of things related to the Circus, like Bubble and the Wacky Watch, were last modified on October *15th*, 1996, 15 days before this program was last changed. Something must have happened that deleted or removed access to KingSolution 1.0 after the Circus was created. 
+* Later entries in the terminal show that a lot of things related to the Circus, like Bubble and the Wacky Watch, were last modified on October *15th*, 1996, 15 days before this program was last changed. Something must have happened that deleted or removed access to KingSolution 1.0 after the Circus was created. 
 * [s] Did Caine delete it to stop the researchers from messing with his code?
 
 ```# Host: circus digital```
-* The ID or name of the server the program is connecting to. I'm not sure why it's in reverse order, but it's not important.
+* The ID or name of the server the program is connecting to. I'm not sure why it's in reverse order, but it's not important for our purposes.
 
 ```"Initializing telnet connection..."```
 * Telnet is a way to access the terminal of, and therefore run commands on, an external server,<sup>[[2]](https://en.wikipedia.org/wiki/Telnet)</sup> in this case the mainframe.
-* [s] How is the mainframe still running over 20 years later if C&A is abandoned like we've been seeing? Or is the mainframe itself *within* the digital world? 
+* [s] How is the mainframe still running over 20 years later if C&A is abandoned like we've seen from pictures and heard from Pomni and Zooble? Is the mainframe itself *within* the digital world?
 
 ```Login: "kinger"```
 * "Kinger" was likely his C&A username, since he was able to log in to the mainframe with it.
+  * This is supported by Caine calling him Kinger just after Ragatha shows up, and Kinger seemingly recognizing the name despite not knowing his real name.
 
 ```Pass: queenie123```
 * "Queenie" is the circus name of Kinger's wife, but it's unclear how the name connects to her in the physical world.
@@ -48,7 +49,7 @@ root 1340 /usr/ai/module/brainscans
 * Based on the file structures, the mainframe is running Linux, while Kinger's computer is running Windows.
 
 ```kinger@circus:~$ /secured/```
-* Kinger checks what's in the /secured/ folder, [s] because Caine will likely only notice what Kinger's doing when Kinger messes with critical files.
+* Kinger checks what's in the /secured/ folder, [s] because Caine will likely only notice what Kinger's doing if Kinger touches critical files.
 
 ```total 8492```
 * There are 8492 files in the "secured" folder, so there's a lot to look through.
@@ -68,13 +69,13 @@ drwxr-xr-x 45 root wheel 1024 Oct 15 1996 ..
 * "drwxr-xr-x" and "-rwxr-xr-x" are shorthand for the permissions people have for the file. In all of these cases, Kinger has full read-write access (meaning he can view and change all the files), so they're unimportant here.
 * The first number is the number of subdirectories or hard links to the file or directory. Unimportant for our purposes.
 * "root wheel" seems to be the name of the server these files are stored on, which seems to be separate from the "circus digital" server from before. Honestly I don't completely understand it, but just know all these files are in the same location.
-* The second number is the size of each file. The Paraphernalia Engine (whatever that is), Scratch's mind, and Ragatha's mind are the exact same size, which is *extremely* rare for non-identical files. What exactly this means, though, is unclear.
-  * [s] It's likely that these are not their actual mind files, since these are only a few megabytes despite the human brain's potential storage being in the petabyte (about a million gigabytes) range.<sup>[[4]](https://www.science.org/content/article/human-brain-big-internet)</sup>
+* The second number is the size of each file. The Paraphernalia Engine (whatever that is), Scratch's mind, and Ragatha's mind seem to be the exact same size down to the byte, which is *extremely* rare for non-identical files. What exactly this means, though, is unclear.
+  * [s] It's likely that these are not the actual mind files or Paraphernalia Engine, since these are only a few megabytes despite the human brain's potential storage being in the petabyte (about a million gigabytes) range,<sup>[[4]](https://www.science.org/content/article/human-brain-big-internet)</sup> and game engines also usually taking a lot more than 2 megabytes.
 * The next entry is the date, which is the last time each file was modified.
   * Caine's "core" was last modified the same day as the other Circus-specific files like Bubble and the Wacky Watch, so October 15, 1996 is likely the day he created the Circus.
-  * [s] Since Ragatha's mind is still being used and Caine was still developing before the events of this episode (which takes place in 2017<sup>[[5]](https://x.com/quietxwater/status/1998030239147123142)</sup>), this is more confirmation that the two mind files here are likely just information *about* the mind files (metadata), and the "caine-core" is likely Caine's default/fallback programming.
+  * [s] Since Ragatha's mind is still being used and Caine was still developing before the events of this episode (which takes place in 2017<sup>[[5]](https://x.com/quietxwater/status/1998030239147123142)</sup>), this is more confirmation that the two mind files here are likely just information *about* these files (metadata), and the "caine-core" is likely Caine's default/fallback programming.
     * If this is true, this confirms Scratch entered the Circus October 15, 1999, and Ragatha entered October 15, 2008 (both on the anniversary of Caine creating the Circus).
-      * [s] It's possible there is some sort of anniversary event in the real world where someone new tries out the Digital Circus on the anniversary of its creation.
+      * [s] It's possible there is some sort of anniversary event in the real world where someone new tries out the Digital Circus on the anniversary of its creation, although that's unlikely since C&A seems to be abandoned.
 * It doesn't show all 8492 files because this is just a quick check. To do that, you can use a command like ```dir``` or ```ls```.
 * For the Linux nerds, typing a directory name to see the first and last few files inside it is a feature of the tcsh shell.<sup>[[6]](https://manpages.ubuntu.com/manpages/jammy/man1/tcsh.1.html#:~:text=autolist)</sup>
 
@@ -82,7 +83,7 @@ drwxr-xr-x 45 root wheel 1024 Oct 15 1996 ..
 kinger@circus:~$ stop caine process
 WARNING: $"*%WHOOPS WRONG APPROACH THERE*%"
 ```
-* Kinger tries (and fails) to temporarily shut Caine down, and we get the first indication that this isn't a normal terminal.
+* Kinger tries (and fails) to temporarily shut Caine down, and we get the first indication that Caine is at least subconsciously aware of Kinger trying to stop him.
 
 ```
 kinger@circus:~$ /usr/bin/gdb /usr/local/bin/clisp 1337
@@ -90,7 +91,7 @@ gdb: ptrace: Operation not permitted
 ERROR: Protected by 57x immersive AI defense system
 ```
 * Kinger tries to use GDB (GNU project DeBugger) to see what's going on inside of clisp (the programming language Caine runs in), but it fails due to the "57x immersive AI defense system".
-* This is a reference to Caine's mention  of the "57 times more immersive" AI in episode 2.
+* This is a reference to Caine's mention  of the "57 times more immersive" AI in episode 2, and the number 57 in general, a running joke throughout the series with no real meaning.<sup>[[7]](https://tadc.fandom.com/wiki/The_Amazing_Digital_Circus_(Series)#:~:text=Gooseworx%20has%20stated%20this%20is%20a%20personal%20in-joke)</sup>
 
 ```
 kinger@circus:~$ chmod 000 /secured/caine-core.lisp
@@ -144,7 +145,7 @@ $: I must hand it to y*u G░an░, y0ur mind was a(ways resourceâul.
 * Kinger tries to start a program called GreenGROUNDS in the form of a "daemon", a constantly-running background program, seemingly to stop Caine's "torment injection". This time, the command seems to work, since there is a security alert from the system.
 * Caine seems surprised by this program, and says Kinger's real name (albeit partially censored) while talking directly to him.
   * [s] Many people (including myself) think he was trying to say "Grant" or "Grand."
-    * [s] "Grand" may be a reference to Steve Grand, best known for his artificial life simulation created in 1996, the same year the Circus was created.<sup>[[7]](https://en.wikipedia.org/wiki/Steve_Grand_(roboticist))</sup>
+    * [s] "Grand" may be a reference to Steve Grand, best known for his artificial life simulation created in 1996, the same year the Circus was created.<sup>[[8]](https://en.wikipedia.org/wiki/Steve_Grand_(roboticist))</sup>
   * Why his name was censored is unclear.
 
 ```
@@ -185,7 +186,7 @@ kinger@circus:~$ N
 * Kinger tries to load a backup ([s] presumably of Caine to reset him), but the system doesn't register it and tries to delete something instead. Kinger refuses the deletion.
 
 ```
-$: Negative response! Inverting to [covered] as per [covered] protocols!
+$: Negative response! Inverting to POSITIVE as per emergency protocols!
 $: [covered] DELETE THIS M***********, HAHAHAHAHAaaaaaaaaaaaa
 kinger@circus:~$ N
 WACKYTIME_LOCKOUT:  ██████████░░█  80% loaded
@@ -195,7 +196,7 @@ kinger@circus:~$ Y
 ```
 * Caine seems to be misunderstanding Kinger (whether intentionally or not is unclear) and trying to delete himself, while Kinger is trying to prevent the deletion.
 * Caine swears for the third time in the series.
-  * There is a theory that the one who swears here is Bubble, but there is no concrete evidence for or against it.
+  * There is a theory that the one who swears here is Bubble, but there is no concrete evidence for or against it. Besides, it's very likely that Bubble is part of Caine in some way.
 
 ```
 $:Querri transaction error falling back to default met [covered]
@@ -213,10 +214,10 @@ kinger@circus:~$ ^C
 DESTRUCTIVE WACKYTIME Lockout Load Sequence: Complete
 ```
 * The system completely ignores Kinger's new program and, likely expecting a [Y/N] prompt from his program instead of the system, Kinger accidentally chooses yes to deleting Caine.
-* ```./IABORT Rollback``` and ```^C``` (ctrl+C) are basically the equivalent of hitting an undo button... But it's too late. Caine gets deleted right as the WACKYTIME_LOCKOUT finishes loading, so Kinger can't undo.
+* ```./IABORT Rollback``` and ```^C``` (ctrl+C) are basically the equivalent of hitting an undo button in the terminal... But it's too late. Caine gets deleted right as the WACKYTIME_LOCKOUT finishes loading, so Kinger can't undo.
 
 # Credits
-This project was inspired by [@summerwya's similar explanation](https://github.com/summerwya/hjsakldfhl), and I got a mostly-complete terminal transcript from there. Go check it out, it has a lot of info on the Kinger's computer, especially the filesystem.
+This project was inspired by [@summerwya's similar explanation](https://github.com/summerwya/hjsakldfhl), and I got a mostly-complete terminal transcript from there. Go check it out, it has a lot of info on Kinger's computer, especially the filesystem.
 
 I got a lot of info and theories from [@missyfrs's Tumblr post](https://www.tumblr.com/missyfrs/811651212864831488/) on the topic.
 
@@ -235,4 +236,6 @@ And of course, credit to Gooseworx, GLITCH, and everyone involved with creating 
 
 [6] https://manpages.ubuntu.com/manpages/jammy/man1/tcsh.1.html#:~:text=autolist
 
-[7] https://en.wikipedia.org/wiki/Steve_Grand_(roboticist)
+[7] https://tadc.fandom.com/wiki/The_Amazing_Digital_Circus_(Series)#:~:text=Gooseworx%20has%20stated%20this%20is%20a%20personal%20in-joke
+
+[8] https://en.wikipedia.org/wiki/Steve_Grand_(roboticist)
