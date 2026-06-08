@@ -1,5 +1,2 @@
-remote_theme: pages-themes/modernist@v0.2.0
+theme: jekyll-theme-modernist
 title: Kinger's console explained
-description: Explaining everything in Kinger's console in TADC: Episode 8
-plugins:
-- jekyll-remote-theme
