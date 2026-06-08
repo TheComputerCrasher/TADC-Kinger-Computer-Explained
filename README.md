@@ -1,6 +1,8 @@
-Explaining **everything** in Kinger's terminal in The Amazing Digital Circus: Episode 8. 
+Explaining **everything** in Kinger's terminal in The Amazing Digital Circus: Episode 8. Spoiler-free for Episode 9, although there is a section on it at the end.
 
 Speculation is marked by [s].
+Connections to episode 9 are marked by [9-x] and will be expanded upon in the final section.
+
 
 ```# System: KingSolution 2.0 / Digital Circus Mainframe```
 * "2.0" implies this is Kinger's second version of the program to get into the Digital Circus's mainframe.
@@ -70,7 +72,7 @@ drwxr-xr-x 45 root wheel 1024 Oct 15 1996 ..
 * The first number is the number of subdirectories or hard links to the file or directory. Unimportant for our purposes.
 * "root wheel" seems to be the name of the server these files are stored on, which seems to be separate from the "circus digital" server from before. Honestly I don't completely understand it, but just know all these files are in the same location.
 * The second number is the size of each file. The Paraphernalia Engine (whatever that is), Scratch's mind, and Ragatha's mind seem to be the exact same size down to the byte, which is *extremely* rare for non-identical files. What exactly this means, though, is unclear.
-  * [s] It's likely that these are not the actual mind files or Paraphernalia Engine, since these are only a few megabytes despite the human brain's potential storage being in the petabyte (about a million gigabytes) range,<sup>[[4]](https://www.science.org/content/article/human-brain-big-internet)</sup> and game engines also usually taking a lot more than 2 megabytes.
+  * [s] It's likely that these are not the actual mind files or Paraphernalia Engine, since these are only a few megabytes despite the human brain's potential storage being in the petabyte (about a million gigabytes) range,<sup>[[4]](https://www.science.org/content/article/human-brain-big-internet)</sup> and game engines also usually taking a lot more than 2 megabytes.<sup>[9-1]</sup>
 * The next entry is the date, which is the last time each file was modified.
   * Caine's "core" was last modified the same day as the other Circus-specific files like Bubble and the Wacky Watch, so October 15, 1996 is likely the day he created the Circus.
   * [s] Since Ragatha's mind is still being used and Caine was still developing before the events of this episode (which takes place in 2017<sup>[[5]](https://x.com/quietxwater/status/1998030239147123142)</sup>), this is more confirmation that the two mind files here are likely just information *about* these files (metadata), and the "caine-core" is likely Caine's default/fallback programming.
@@ -144,7 +146,7 @@ $: I must hand it to y*u G░an░, y0ur mind was a(ways resourceâul.
 ```
 * Kinger tries to start a program called GreenGROUNDS in the form of a "daemon", a constantly-running background program, seemingly to stop Caine's "torment injection". This time, the command seems to work, since there is a security alert from the system.
 * Caine seems surprised by this program, and says Kinger's real name (albeit partially censored) while talking directly to him.
-  * [s] Many people (including myself) think he was trying to say "Grant" or "Grand."
+  * [s] Many people (including myself) think he was trying to say "Grant" or "Grand."<sup>[9-1]</sup>
     * [s] "Grand" may be a reference to Steve Grand, best known for his artificial life simulation created in 1996, the same year the Circus was created.<sup>[[8]](https://en.wikipedia.org/wiki/Steve_Grand_(roboticist))</sup>
   * Why his name was censored is unclear.
 
@@ -196,7 +198,7 @@ kinger@circus:~$ Y
 ```
 * Caine seems to be misunderstanding Kinger (whether intentionally or not is unclear) and trying to delete himself, while Kinger is trying to prevent the deletion.
 * Caine swears for the third time in the series.
-  * There is a theory that the one who swears here is Bubble, but there is no concrete evidence for or against it. Besides, it's very likely that Bubble is part of Caine in some way.
+  * There is a theory that the one who swears here is Bubble, and the covered text does seem to say "BUBBLE". But since it's very likely that Bubble is part of Caine in some way, it's kind of hard to tell who is really doing it.<sup>[9-3]</sup>
 
 ```
 $:Querri transaction error falling back to default met [covered]
@@ -216,14 +218,14 @@ DESTRUCTIVE WACKYTIME Lockout Load Sequence: Complete
 * The system completely ignores Kinger's new program and, likely expecting a [Y/N] prompt from his program instead of the system, Kinger accidentally chooses yes to deleting Caine.
 * ```./IABORT Rollback``` and ```^C``` (ctrl+C) are basically the equivalent of hitting an undo button in the terminal... But it's too late. Caine gets deleted right as the WACKYTIME_LOCKOUT finishes loading, so Kinger can't undo.
 
-# Credits
-This project was inspired by [@summerwya's similar explanation](https://github.com/summerwya/hjsakldfhl), and I got a mostly-complete terminal transcript from there. Go check it out, it has a lot of info on Kinger's computer, especially the filesystem.
+## Credits
+This project was inspired by [@summerwya's similar explanation](https://github.com/summerwya/hjsakldfhl), and I got a mostly-complete terminal transcript from there. Go check it out, it has a lot of info on Kinger's computer that I didn't cover here, especially the filesystem.
 
 I got a lot of info and theories from [@missyfrs's Tumblr post](https://www.tumblr.com/missyfrs/811651212864831488/) on the topic.
 
 And of course, credit to Gooseworx, GLITCH, and everyone involved with creating The Amazing Digital Circus, for making this theorycrafting possible in the first place.
 
-# Citations
+## Citations
 [1] https://en.wikipedia.org/wiki/Mainframe_computer
 
 [2] https://en.wikipedia.org/wiki/Telnet
@@ -239,3 +241,17 @@ And of course, credit to Gooseworx, GLITCH, and everyone involved with creating 
 [7] https://tadc.fandom.com/wiki/The_Amazing_Digital_Circus_(Series)#:~:text=Gooseworx%20has%20stated%20this%20is%20a%20personal%20in-joke
 
 [8] https://en.wikipedia.org/wiki/Steve_Grand_(roboticist)
+
+# Connections to Episode 9
+### ***The following section contains SPOILERS for The Amazing Digital Circus: Episode 9! Continue at your own risk if you haven't seen it!!***
+
+### Seriously, you'll want to see this episode for yourself. These are pretty minor spoilers, but if you read these, you might start wondering how these topics came up.
+
+## 9-1
+Kinger mentions that the brain scans are much smaller than the researchers thought they should be, which lines up with these files' 2.3 MB size. 
+
+## 9-2
+It's revealed that Kinger's real name is Grant, not Grand.
+
+## 9-3
+[s] Bubble seems to be the blue AI, which makes sense considering Bubble does nothing but annoy Caine, and that Bubble is no longer present after Caine removes the blue AI.
