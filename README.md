@@ -1,9 +1,8 @@
 Explaining **everything** in Kinger's terminal in The Amazing Digital Circus: Episode 8. Spoiler-free for Episode 9, although there is a section on it at the end.
 
-Speculation is marked by [s].
-Connections to episode 9 are marked by [9-x] and will be expanded upon in the final section.
+Speculation is marked by [s]. Connections to episode 9 are marked by [9-x] and will be expanded upon in the final section.
 
-As per the BAD 3-Clause license, you are free to do whatever with this text as long as you include the text of the LICENSE file. (Basically just make sure to credit me)
+As per the BSD 3-Clause license, you are free to do whatever with this text as long as you include the text of the LICENSE file. (Basically just make sure to credit me if you repost this.)
 
 
 ```# System: KingSolution 2.0 / Digital Circus Mainframe```
@@ -247,7 +246,7 @@ And of course, credit to Gooseworx, GLITCH, and everyone involved with creating 
 # Connections to Episode 9
 ### ***The following section contains SPOILERS for The Amazing Digital Circus: Episode 9! Continue at your own risk if you haven't seen it!!***
 
-### Seriously, you'll want to see this episode for yourself. These are pretty minor spoilers, but if you read these, you might start wondering how these topics came up.
+### Seriously, you'll want to see this episode for yourself. 
 
 ## 9-1
 Kinger mentions that the brain scans are much smaller than the researchers thought they should be, which lines up with these files' 2.3 MB size. 
