@@ -3,6 +3,8 @@ Explaining **everything** in Kinger's terminal in The Amazing Digital Circus: Ep
 Speculation is marked by [s].
 Connections to episode 9 are marked by [9-x] and will be expanded upon in the final section.
 
+As per the BAD 3-Clause license, you are free to do whatever with this text as long as you include the text of the LICENSE file. (Basically just make sure to credit me)
+
 
 ```# System: KingSolution 2.0 / Digital Circus Mainframe```
 * "2.0" implies this is Kinger's second version of the program to get into the Digital Circus's mainframe.
