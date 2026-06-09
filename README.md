@@ -1,4 +1,4 @@
-Explaining **everything** in Kinger's terminal in The Amazing Digital Circus: Episode 8. Spoiler-free for Episode 9, although there is a section on it at the end.
+Explaining **everything** in Kinger's console in The Amazing Digital Circus: Episode 8. The main section is spoiler-free for Episode 9, although there is a section on it at the end.
 
 Speculation is marked by [s]. Connections to episode 9 are marked by [9-x] and will be expanded upon in the final section.
 
@@ -246,7 +246,7 @@ And of course, credit to Gooseworx, GLITCH, and everyone involved with creating 
 # Connections to Episode 9
 ### ***The following section contains SPOILERS for The Amazing Digital Circus: Episode 9! Continue at your own risk if you haven't seen it!!***
 
-### Seriously, you'll want to see this episode for yourself. 
+### Seriously, you'll want to see this episode for yourself. The third one is an especially huge spoiler, so please don't read further if you haven't seen the episode.
 
 ## 9-1
 Kinger mentions that the brain scans are much smaller than the researchers thought they should be, which lines up with these files' 2.3 MB size. 
